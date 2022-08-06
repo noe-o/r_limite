@@ -1,0 +1,24 @@
+{
+  "author": "Noemi oteizanoemi@gmail.com",
+  "description": "Rio al Limite",
+  "license": "MIT",
+  "name": "r_limite",
+  "scripts": {
+    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+    "build:css": "node-sass --output-style compressed scss/style.scss css/main.css"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.4"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noe-o/r_limite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noe-o/r_limite/issues"
+  },
+  "homepage": "https://github.com/noe-o/r_limite#readme"
+}
