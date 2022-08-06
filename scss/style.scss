@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+$colores: (
+    marron_marron:#724848,
+    marron_oscuro:#785755,
+    marron:#c0aea7,
+    marron_semi:#b69d98,
+    marron_semi_semi:#aa928c,
+    marron_claro:#efebe2
+);
+
+@each $name,
+$color in $colores {
+    .bg-#{$name} {
+        background: $color;
+    }
+}
+
+
